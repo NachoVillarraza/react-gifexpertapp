@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
-const GifExpertApp = () => {
+export const GifExpertApp = () => {
   const [categories, setCategories] = useState(['']);
 
   return (
@@ -19,5 +19,3 @@ const GifExpertApp = () => {
     </div>
   );
 };
-
-export default GifExpertApp;
